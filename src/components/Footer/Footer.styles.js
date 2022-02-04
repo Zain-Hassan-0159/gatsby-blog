@@ -5,7 +5,7 @@ export const Wrapper = styled.footer`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: #212121;
+  background: #ee2562;
   color: #fff;
   text-align: center;
   height: 200px;

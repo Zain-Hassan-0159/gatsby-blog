@@ -1,13 +1,13 @@
 import styled, { createGlobalStyle } from 'styled-components'
 
 export const Primary = styled.main`
-  padding: 110px 0 0 0;
+  padding: 0;
 `;
 
 export const GlobalStyles = createGlobalStyle`
 {
   html {
-    font-family: 'arial', sans-serif;
+    font-family: 'Poppins';
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
   }
@@ -75,7 +75,7 @@ export const GlobalStyles = createGlobalStyle`
     font-style: italic;
   }
   h1 {
-    font-family: 'Teko', Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 2em;
     margin: 0.67em 0;
@@ -240,17 +240,18 @@ export const GlobalStyles = createGlobalStyle`
   a {
     text-decoration: none;
     color: #000;
+    font-family: 'Poppins';
   }
 
   p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins';
     font-size: 1.1rem;
     line-height: 1.7rem;
   }
 
   h1 {
     font-size: 2.2rem;
-    font-family: 'Teko', Arial;
+    font-family: 'Poppins', Arial;
     font-weight: 800;
     letter-spacing: 1px;
     color: #282828;
@@ -268,7 +269,7 @@ export const GlobalStyles = createGlobalStyle`
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: 'Teko', Arial, Helvetica Neue, sans-serif;
+    font-family: 'Poppins', Arial, Helvetica Neue, sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 1.62671rem;
@@ -298,11 +299,11 @@ export const GlobalStyles = createGlobalStyle`
     letter-spacing: 1px;
   }
   h5 {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Poppins';
     font-size: 1rem;
     font-style: normal;
     font-variant: normal;
-    font-weight: 200;
+    font-weight: 400;
     letter-spacing: 1px;
     margin-bottom: 10px;
     color: #000;

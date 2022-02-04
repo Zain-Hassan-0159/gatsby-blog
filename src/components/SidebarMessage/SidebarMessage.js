@@ -15,7 +15,7 @@ const SidebarMessage = () => (
       Just email us with your name and email adress
       <br />
       <br />
-      <a href='mailto:info@cakeitfakeit.com'>Email</a>
+      <a href='mailto:zainhassan.dev@gmail.com'>Email</a>
     </p>
   </Wrapper>
 );

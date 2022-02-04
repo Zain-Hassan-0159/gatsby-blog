@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.header`
-  background: #fdf3fa;
-  height: 110px;
+  background: #ee2562;
+  height: 80px;
   border-bottom: 1px solid #e7e7e7;
   position: fixed;
   width: 100%;
@@ -18,9 +18,13 @@ export const Content = styled.div`
   margin: 0 auto;
   padding: 0 20px;
 
+  h2{
+    margin:0;
+    color: #fff;
+  }
+
   img {
     width: 200px;
     margin: 0;
-    padding: 12px 0 0 0;
   }
 `;

@@ -1,16 +1,15 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.nav`
-  font-family: 'Teko', Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
-  color: #212121;
+  font-family: 'Poppins';
+  color: #fff;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 1px;
   display: none;
 
   .nav-active {
-    color: #ee2562;
+    color: #000;
   }
 
   @media (min-width: 992px) {
@@ -26,7 +25,6 @@ export const Wrapper = styled.nav`
     display: block;
     margin: 0 10px 0 0;
     float: left;
-    height: 30px;
     position: relative;
 
     a {
@@ -34,7 +32,7 @@ export const Wrapper = styled.nav`
       padding: 0 0 0 10px;
       transition: all 0.2s ease;
       text-decoration: none;
-      color: #000;
+      color: #fff;
 
       div {
         margin: -4px 0 0 5px;
@@ -51,7 +49,7 @@ export const Wrapper = styled.nav`
   }
 
   ul li a:hover {
-    color: #ee2562;
+    color: #fff;
   }
 
   ul ul {

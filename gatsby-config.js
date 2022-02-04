@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Cake It!`,
-    description: `This is Cakte It!`,
+    title: `Smart House!`,
+    description: `This is Blog!`,
     author: `@zainhassan`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
@@ -34,14 +34,14 @@ module.exports = {
     {
       resolve: `gatsby-source-wordpress`,
       options: {
-        url: `https://cekeit.hassanzain.com/graphql`,
+        url: `http://cakeit.local/graphql`,
       }
     },
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`Teko\:200, 400, 500, 600, 700`],
+        fonts: [`Noto Serif\:200, 400, 500, 600, 700`, `Poppins\:200, 300, 400, 500, 600, 700, 800, 900`],
         display: `swap`,
       }
     }

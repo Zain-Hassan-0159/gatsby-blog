@@ -41,7 +41,7 @@ export const StyledDate = styled.div`
 `
 
 export const StyledReadMore = styled(Link)`
-  font-family: "Teko", Arial, Helvetica, sans-serif;
+  font-family: "Poppins";
   font-size: 1rem;
   font-weight: 800;
   color: #fff;

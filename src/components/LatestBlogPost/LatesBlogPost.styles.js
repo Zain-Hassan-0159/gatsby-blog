@@ -9,4 +9,10 @@ export const Wrapper = styled.div`
   padding-top: 40px;
   border-top: 1px solid #ddd;
   text-align: center;
+
+
+  h4, h1{
+    font-family: 'Poppins';
+    font-weight: 800;
+  }
 `;
