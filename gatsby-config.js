@@ -34,7 +34,7 @@ module.exports = {
     {
       resolve: `gatsby-source-wordpress`,
       options: {
-        url: `http://cakeit.local/graphql`,
+        url: `https://hassanzain.com/graphql`,
       }
     },
     `gatsby-plugin-styled-components`,
